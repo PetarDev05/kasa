@@ -21,9 +21,13 @@
   margin: 0;
 }
 
+html {
+  height: 100vh;
+}
+
 body {
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
   background-color: var(--bg);
   display: flex;
   flex-direction: column;
@@ -50,8 +54,8 @@ body {
 
 #screen {
   width: 100%;
-  flex: 1;
   max-width: 500px;
+  flex: 1;
   padding: 25px;
   display: flex;
   font-size: 25px;
